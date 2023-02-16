@@ -1,0 +1,342 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+/**********NAVBAR*********** 
+****************************/
+.navbar {
+  text-align: center;
+}
+.navbar-brand {
+  font-weight: 700;
+}
+.navbar-brand span {
+  color: #00afb9;
+}
+.nav-link {
+  font-weight: 600;
+}
+
+/**********JUMBOTRON*********** 
+****************************/
+.jumbotron {
+  background-image: url(img/bg-image.jpg);
+  background-size: cover;
+  height: 680px;
+  text-align: center;
+}
+.jumbotron .display-4 {
+  margin-top: 200px;
+  font-size: 1rem;
+  height: 240px;
+  font-weight: 400;
+  color: #fff;
+}
+.jumbotron .display-4 span {
+  font-weight: 600;
+  color: #00afb9;
+}
+.jumbotron a {
+  color: #fff;
+  padding: 8px 12px;
+  margin-top: -305px;
+  background-image: linear-gradient(to right, #00afb9, #10cbd5);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.jumbotron a:hover {
+  color: #fff;
+  background-image: linear-gradient(to right, #10cbd5, #00afb9);
+}
+
+/**********PAYMENT*********** 
+****************************/
+.payment {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+  margin-top: 50px;
+}
+.payment .payment-row img {
+  width: 100px;
+  height: auto;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+/**********BENEFITS*********** 
+****************************/
+.benefits {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: auto;
+}
+.benefits .container {
+  background-image: linear-gradient(to right, #00afb9, #d0e6a5);
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.benefits .text-kiri {
+  padding-left: 30px;
+}
+.benefits .text-kiri h2 {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+.benefits .text-kiri a {
+  background-image: linear-gradient(to bottom right, #1ca7ec, #f26ba6);
+  font-weight: 600;
+  padding: 0.4rem 1.2rem;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+  color: #fff;
+  text-decoration: none;
+}
+.benefits .text-kiri a:hover {
+  background-image: linear-gradient(to bottom right, #f26ba6, #677ce7);
+  color: #fff;
+}
+.benefits .text-kanan p {
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+/**********SERVICES*********** 
+****************************/
+.services .one {
+  background-image: linear-gradient(to right, #d0e6a5, #00afb9);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem 1.5rem;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  margin: auto;
+}
+.services .one:hover {
+  background-image: linear-gradient(to right, #00afb9, #d0e6a5);
+}
+.services h5 {
+  font-weight: 700;
+}
+.services .one a {
+  background-image: linear-gradient(to bottom right, #1ca7ec, #f26ba6);
+  font-weight: 400;
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+.services .one a:hover {
+  background-image: linear-gradient(to bottom right, #f26ba6, #677ce7);
+  color: #fff;
+}
+
+/**********HERO*********** 
+****************************/
+.hero h6 {
+  color: #00afb9;
+  font-weight: 800;
+  font-size: 1rem;
+  letter-spacing: 2px;
+}
+.hero h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.hero p {
+  color: #808080;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+}
+
+/**********WORK*********** 
+****************************/
+.work .card-title {
+  font-weight: 700;
+}
+.work .card-text {
+  font-weight: 300;
+  color: #808080;
+}
+
+/* HEADING */
+.heading {
+  font-weight: 700;
+}
+
+/**********TESTIMONIAL********
+****************************/
+.swiper {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.slide-container {
+  max-width: 1120px;
+  width: 100%;
+  padding: 40px 0;
+}
+.slide-content {
+  margin: 0 40px;
+  overflow: hidden;
+  border-radius: 25px;
+}
+.card {
+  border-radius: 25px;
+  background-color: #fff;
+}
+.image-content,
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 14px;
+}
+.image-content {
+  position: relative;
+  row-gap: 5px;
+  padding: 25px 0;
+}
+.overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(to right, #00afb9, #d0e6a5);
+  border-radius: 25px 25px 0 25px;
+}
+.overlay::before,
+.overlay::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+  background-color: #d0e6a5;
+}
+.overlay::after {
+  border-radius: 0 25px 0 0;
+  background-color: #fff;
+}
+.card-image {
+  position: relative;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 3px;
+}
+.card-image .card-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #00afb9;
+}
+.name {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+}
+.description {
+  font-size: 14px;
+  color: #707070;
+  text-align: center;
+}
+.swiper-navBtn {
+  color: #10cbd5;
+  transition: color 0.3s ease;
+}
+.swiper-navBtn:hover {
+  color: #00afb9;
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 35px;
+}
+.swiper-button-next {
+  right: 0;
+}
+.swiper-button-prev {
+  left: 0;
+}
+.swiper-pagination-bullet {
+  background-color: #10cbd5;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active {
+  background-color: #00afb9;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content {
+    margin: 0 10px;
+  }
+  .swiper-navBtn {
+    display: none;
+  }
+}
+/* TESTIMONIAL */
+
+/**********WORK*********** 
+****************************/
+.footer {
+  background-image: linear-gradient(to right, #00afb9, #00afb9, #d0e6a5);
+  margin-top: 50px;
+}
+.footer a {
+  text-decoration: none;
+}
+
+/********DESKTOP VERSION******* 
+****************************/
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 20px;
+  }
+  .jumbotron {
+    margin-top: -75px;
+  }
+  .jumbotron .display-4 {
+    margin-top: 200px;
+    font-size: 2.8rem;
+    height: 340px;
+  }
+  .jumbotron a {
+    margin-top: -375px !important;
+  }
+}
+
+/* MOBILE COLONGAN */
+@media (max-width: 572px) {
+  .navbar {
+    background-color: rgb(19, 18, 18);
+  }
+}
